@@ -1,18 +1,16 @@
 # Site settings
 title: Christopher Bowles
 description: A programming portfolio
-# baseurl: "/particle" # the subpath of your site, e.g. /blog
-url: "https://cris-bwls.github.io/"
 
 # User settings
 username: Christopher Bowles
-user_description: Games Programmer
 user_title: Games Programmer
-twitter_username: Av1ant
+email: contact@crisbwls.dev
+twitter_username: av1ant
 github_username:  Cris-Bwls
 
 # Google-analytics
 google-analytics:
-  id: ""
+  id: "UA-151091341-1"
 
 exclude: ['package.json', 'src' , 'node_modules']
