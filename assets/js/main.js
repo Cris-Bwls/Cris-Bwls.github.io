@@ -892,8 +892,15 @@ document.addEventListener(
     "DOMContentLoaded", 
     function () { 
         new SweetScroll({}); 
+        jQuery(document).ready(function() {
+            $('#particles-js').ripples({
+                resolution: 512,
+                dropRadius: 20, //px
+                perturbance: 0.04,
+            });
+        });
         //particlesJS(
-        //    "particles-js", { 
+        //"particles-js", { 
         //        particles: { 
         //            number: { 
         //                value: 30, 
