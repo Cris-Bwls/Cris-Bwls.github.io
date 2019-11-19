@@ -1,5 +1,6 @@
 #about {
-  width: 90%;
+  color: $lightText;
+  width: 100%;
   margin: 0 auto;
   max-width: 960px;
   @media only screen and (min-width: $cut) {
@@ -8,10 +9,12 @@
 }
 
 .tech {
+  color: $lightText;
   margin: 10px;
 }
 
 .user {
+  color: $lightText;
   text-align: center;
   font-size: 60px;
   display: flex;
@@ -28,6 +31,7 @@
 }
 
 .user-details {
+  color: $lightText;
   text-align: center;
   margin: 5px auto;
 }
