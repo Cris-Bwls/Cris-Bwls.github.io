@@ -3834,14 +3834,9 @@ sup, sub {
     float: left;
     width: 48%; } }
 
-.images-left img {
-  animation-play-state: paused; }
-  @media only screen and (min-width: 550px) {
-    .images-left img {
-      float: left; } }
-
-.images-left:hover img {
-  animation-play-state: running; }
+@media only screen and (min-width: 550px) {
+  .images-left img {
+    float: left; } }
 
 .project-link {
   display: inline-block;
@@ -3874,7 +3869,7 @@ sup, sub {
   text-align: center;
   color: #FFF; }
   .footer .love {
-    color: blue; }
+    color: #FFF; }
   .footer a {
     text-decoration: none;
     margin: 0;
