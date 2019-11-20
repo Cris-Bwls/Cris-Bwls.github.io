@@ -27,6 +27,24 @@
   p {
     margin-right: 5px;
   }
+  &:hover {
+    .img-static {
+      visibility: hidden;
+      display: none;
+    }
+    .img-anim {
+      visibility: visible;
+      display: inline-flex;
+    }
+  }
+  .img-static {
+    visibility: visible;
+    filter: grayscale(100);
+  }
+  .img-anim {
+    visibility: hidden;
+    display: none;
+  }
 }
 
 .contents {
@@ -52,7 +70,7 @@
     @media only screen and (min-width: $cut) {
       float: right;
     }
-  }
+  }  
 }
 
 .images-left {

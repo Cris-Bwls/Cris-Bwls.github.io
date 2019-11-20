@@ -3583,7 +3583,8 @@ h4 {
 
 ul, ol {
   margin: 1em 0;
-  padding-left: 40px; }
+  padding-left: 40px;
+  font-size: 1rem; }
 
 p, figure {
   margin: 1em 0; }
@@ -3795,6 +3796,18 @@ sup, sub {
     font-size: 1.1rem; }
   .user-projects p {
     margin-right: 5px; }
+  .user-projects:hover .img-static {
+    visibility: hidden;
+    display: none; }
+  .user-projects:hover .img-anim {
+    visibility: visible;
+    display: inline-flex; }
+  .user-projects .img-static {
+    visibility: visible;
+    filter: grayscale(100); }
+  .user-projects .img-anim {
+    visibility: hidden;
+    display: none; }
 
 @media only screen and (min-width: 550px) {
   .contents {
@@ -3821,9 +3834,14 @@ sup, sub {
     float: left;
     width: 48%; } }
 
-@media only screen and (min-width: 550px) {
-  .images-left img {
-    float: left; } }
+.images-left img {
+  animation-play-state: paused; }
+  @media only screen and (min-width: 550px) {
+    .images-left img {
+      float: left; } }
+
+.images-left:hover img {
+  animation-play-state: running; }
 
 .project-link {
   display: inline-block;
